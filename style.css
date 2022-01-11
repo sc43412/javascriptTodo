@@ -1,3 +1,5 @@
+/* global */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,9 @@ body {
     min-height: 100vh;
 }
 
+
+/* header part of page */
+
 header {
     font-size: 2rem;
 }
@@ -22,6 +27,9 @@ form {
     justify-content: center;
     align-items: center;
 }
+
+
+/* form styling */
 
 form input,
 form button {
@@ -42,6 +50,9 @@ form button:hover {
     background: #ff6f47;
     color: white;
 }
+
+
+/* todo container */
 
 .todo-container {
     display: flex;
@@ -116,6 +127,9 @@ select {
     border: 0 !important;
     background-image: none;
 }
+
+
+/* /// select element design */
 
 .select {
     margin: 1rem;
